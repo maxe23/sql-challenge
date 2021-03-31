@@ -42,3 +42,14 @@ CREATE TABLE dept_emp(
 );
 --Import dept_emp.csv
 SELECT * FROM dept_emp
+
+--Create salaries table
+CREATE TABLE salaries(
+	emp_no	INT NOT NULL,
+	salary INT NOT NULL,
+	FOREIGN KEY (emp_no) REFERENCES employees(emp_no),
+	PRIMARY KEY (emp_no)
+);
+
+--Import salaries.csv
+SELECT * FROM salaries
