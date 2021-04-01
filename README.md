@@ -1,6 +1,8 @@
 homework directions
 
 data folder contains csv files imported and used to extrapolate data 
+
+Output of an image added and sql files added
 # SQL Homework - Employee Database: A Mystery in Two Parts
 
 ![sql.png](sql.png)
